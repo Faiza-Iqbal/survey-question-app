@@ -1,0 +1,16 @@
+.bodyWrapper {
+  background-color: #f3f3f3;
+  padding: 20px 0px 0px 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.inputOptionWrapper{
+  position: relative;
+}
+.inputOptionWrapper:last-child span{
+  width: 35px;
+}
+.optionsWrapper{
+  background-color: #f3f3f3;
+  padding: 20px 30px;
+}

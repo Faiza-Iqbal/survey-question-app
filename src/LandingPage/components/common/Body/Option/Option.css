@@ -1,0 +1,49 @@
+.activeOption{
+  border: 2px solid cornflowerblue;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 8px 38px;
+  border-radius: 5px;
+  font-size: 14px;
+  position: relative;
+  min-height: 20px;
+}
+.activeOption span{
+  background-color: cornflowerblue;
+  color: #fff;
+  transform: scale(1.2);
+  width: 30px;
+}
+.defaultOption {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 8px 28px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid rgba(160, 160, 160, 0.6);
+  position: relative;
+  min-height: 20px;
+}
+.otherInput{
+  position: absolute;
+  top: 2px;
+  left: 40px;
+  border: none;
+  outline: none;
+  min-height: 30px;
+}
+span {
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+  background-color: #e3e3e3;
+  width: 18px;
+  height: 26px;
+  border-radius: 5px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}

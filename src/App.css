@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+*, p{
+  margin: 0;
+}
+.contentBody {
+  height: 85vh;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #f3f3f3;
+}
+
+
+
