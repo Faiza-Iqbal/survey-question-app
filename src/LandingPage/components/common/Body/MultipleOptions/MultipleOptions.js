@@ -8,7 +8,7 @@ import "./MultipleOptions.css";
 function MultipleOptions({ list }) {
   //Destructuring prop to improve code readability
   const [selectedOptions, setSelectedOptions] = useState([]); // Maintaining state of Selected Options
-
+  console.log("selectedOptions", selectedOptions);
   // if list contains new item, filter and update state
   // if list length == 2 return
   // else updated state [...list, new item]
@@ -23,8 +23,7 @@ function MultipleOptions({ list }) {
       return;
     }
 
-    if (selectedOptions.length >= 2 && !selectedOptions.includes(option.value))
-      return;
+    if (selectedOptions.length >= 2) return;
     else {
       const updated = [...selectedOptions, option.value];
       // setting state to detect change
