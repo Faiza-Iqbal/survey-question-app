@@ -4,8 +4,10 @@
 *, p{
   margin: 0;
 }
+.mainWrapper{
+  height: 100vh;
+}
 .contentBody {
-  /* height: 85vh; */
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   background-color: #f3f3f3;

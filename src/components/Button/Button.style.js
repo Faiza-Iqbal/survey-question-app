@@ -1,9 +1,5 @@
-.nextWrapper{
-  text-align: center;
-  background-color: #f3f3f3;
-  padding: 40px 0px;
-}
-.nextButton{
+import styled from "styled-components";
+export const Button = styled.button`
   background-color: cornflowerblue;
   color: #fff;
   border: none;
@@ -11,4 +7,6 @@
   text-transform: uppercase;
   font-size: 16px;
   padding: 8px 14px;
-}
+  display: flex;
+  margin: 0 auto;
+`;
